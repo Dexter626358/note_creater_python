@@ -8,6 +8,7 @@ def del_note(path):
         key_list = [key for key in note_dct]
         if note_number in key_list:
             del note_dct[note_number]
+            print("Заметка удалена")
     else:
         print("Нет заметок для удаления")
 
